@@ -1,5 +1,8 @@
 {
-    "require": {
-        "picqer/php-barcode-generator": "^2.2"
-    }
+  "require": {
+    "picqer/php-barcode-generator": "^2.2"
+  },
+  "scripts": {
+    "post-install-cmd": "node scripts/setup.js"
+  }
 }
